@@ -1,0 +1,20 @@
+{
+  "name": "basic_express_api",
+  "version": "1.0.0",
+  "description": "Some basic concepts about express API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm ./src/app.js"
+  },
+  "keywords": [
+    "API",
+    "Express.js"
+  ],
+  "author": "Lucas Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
