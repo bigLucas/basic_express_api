@@ -11,6 +11,6 @@ app.get('/', (_req, res) => {
 app.use('/pets', PetController);
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`basic_express_api app listening at http://localhost:${port}`);
 });
 

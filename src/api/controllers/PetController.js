@@ -4,7 +4,7 @@ const PetController = Router();
 
 PetController.get('/', function (_req, res) {
     const pets = PetService.findMany();
-    res.status(200).json(pets);
+    res.status(200).json({pets});
 });
 
 export default PetController;

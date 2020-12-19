@@ -6,9 +6,9 @@
 * [Communication between backend and frontend.](https://codewithhugo.com/in-simple-terms-code-on-the-backend-frontend-and-how-they-interact/)
 ## Structure
 * **./src**\
-Content all source files
+Content all source files.
 * **./src/api**\
-Content all files to support the API app
+Content all files to support the API app.
 * **./src/api/controllers**\
 All routes available on API must be in this folder.\
 Each entity must have a controller file.\

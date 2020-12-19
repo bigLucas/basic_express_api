@@ -9,7 +9,7 @@ const findOneById = () => {
 };
 
 const findMany = () => {
-    return {pets: PetRepository.findMany()};
+    return PetRepository.findMany();
 };
 
 const update = () => {
